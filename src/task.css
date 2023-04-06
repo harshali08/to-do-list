@@ -1,0 +1,33 @@
+.each_task{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top:4px;
+ background-color: rgb(239, 236, 236);
+ align-items: center;
+ width:350px;
+}
+
+.each_task button{
+    padding:3px;
+    color: aliceblue;
+    width:50px;
+    background-color: rgb(231, 73, 55);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+.each_task button:hover{
+    cursor: pointer;
+    background-color: rgb(236, 30, 7);
+}
+
+.each_task li{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:10px;
+    font-size: large;
+    font-weight: 500;
+}
